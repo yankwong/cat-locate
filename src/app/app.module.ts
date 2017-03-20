@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { PhotoUploadComponent } from './photoUpload.component';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PhotoUploadComponent
   ],
   imports: [
     BrowserModule,
